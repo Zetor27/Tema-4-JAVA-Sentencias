@@ -47,5 +47,6 @@ public class Tema4SentenciasLogicas {
             System.out.println("El número es el cero");
         
         }
+        System.out.println("Código creado por Héctor David Galicia Romero");
     }
 }
