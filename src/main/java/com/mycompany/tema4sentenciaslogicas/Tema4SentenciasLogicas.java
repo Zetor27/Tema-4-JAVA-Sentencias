@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.tema4sentenciaslogicas;
-import java.util.Scanner;
+import java.util.Scanner;//Librería importante que sirve para utilizar el teclado
 
 /**
  *
@@ -22,23 +22,30 @@ public class Tema4SentenciasLogicas {
         System.out.println("Ingresa el valor de Y:");
         int y=sc.nextInt();
         
+        //sentencia if-else-if
         if(x>y){
             System.out.println("X es mayor que Y");
-        }else{
+        }
+        else if(y>x){
             System.out.println("Y es mayor que X");
         }
-        
+        else{
+            System.out.println("X, Y tiene el mismo valor");
+        }
+        System.out.println("");
+        System.out.println("------------------------");
+        System.out.println("");
         //Otro ejemplo
-        
-        int numero=0;
+        System.out.println("Ingresa un número para saber si es positvo, negativo");
+        int numero=sc.nextInt();
         if(numero>0){
             System.out.println("El número "+numero+" es postivio");
         }
-        else{
+        else if(numero<0){
             System.out.println("El número"+numero+" es negativo");
+        }else{
+            System.out.println("El número es el cero");
+        
         }
-        
-        
-        
     }
 }
