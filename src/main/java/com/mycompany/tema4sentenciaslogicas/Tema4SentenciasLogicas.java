@@ -45,8 +45,21 @@ public class Tema4SentenciasLogicas {
             System.out.println("El número"+numero+" es negativo");
         }else{
             System.out.println("El número es el cero");
-        
         }
+        //if-else-if utilizando Strings
+        String curso="Matematicas";
+        if(curso.equals("Biología")){
+            System.out.println("El registro es al curso de Biología");
+        }
+        else if(curso.equals("Álgebra")){
+            System.out.println("El registro es al curso de Álgebra");
+        }
+        else if(curso.equals("Teatro")){
+            System.out.println("El registro es al curso de Teatro");
+        }else{
+            System.out.println("Curso no encontrado.");
+        }
+        
         System.out.println("Código creado por Héctor David Galicia Romero");
     }
 }
